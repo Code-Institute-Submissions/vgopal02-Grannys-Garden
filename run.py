@@ -12,4 +12,15 @@ def start():
     time.sleep(a)
     print("\n Granny needs to be rescued...")
     time.sleep(a)
-    print("\n DO YOU WANT TO SAVE GRANNY? (y or n)")
+    print("\n DO YOU WANT TO SAVE GRANNY? (yes or no)")
+    # convert the player's input to lower_case
+    answer = input(">").lower()
+    if answer == "yes":
+        # take player to cross_roads
+        cross_roads()
+    elif answer == "no":
+        # exit() the program
+        exit("\n Sorry to see you go.")
+    else:
+        # return to start()
+        start()
