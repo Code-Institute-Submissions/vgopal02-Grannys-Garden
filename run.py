@@ -4,7 +4,7 @@ a = 2
 
 
 def start():
-    # Storyline prompts
+    # Storyline prompts - Brief Introduction
     print("WELCOME TO GRANNY'S GARDEN\n")
     print("\n Granny was in the garden picking apples....")
     time.sleep(a)
