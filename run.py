@@ -108,8 +108,8 @@ def monster_den():
     print("Door 2 is closed but big enough for you to fit through")
     time.sleep(a)
     print("Which door will you choose to take (1 or 2)")
-    print("1). Squeeze through the small window")
-    print("2). Open the bigger window and comfortably slide through")
+    print("1. Squeeze through the small window")
+    print("2. Open the bigger window and comfortably slide through")
     # convert the player's input() to lower_case
     answer = input(">").lower()
     # if player typed "1" dungeon_den()
