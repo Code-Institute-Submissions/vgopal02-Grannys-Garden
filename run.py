@@ -93,6 +93,7 @@ def bear_den():
         else:
             exit()
 
+
 def monster_den():
     # give some prompts.
     print("\nYou have entered the monster den")
@@ -132,6 +133,11 @@ def monster_den():
             exit()
         else:
             exit()
+
+
+def dungeon_den():
+    # give some prompts.
+    
 
 # start the game
 start()
