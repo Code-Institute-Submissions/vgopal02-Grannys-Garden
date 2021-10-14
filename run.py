@@ -213,6 +213,7 @@ def dungeon_den():
         else:
             exit()
 
+
 def game_over():
     # print the "reason" in a new line (\n)
     print("\n Sorry there was nothing beyond ...")
@@ -247,6 +248,6 @@ def play_again():
         # return to start()
         start()
 
-        
+
 # start the game
 start()
