@@ -233,6 +233,10 @@ def game_win():
     play_again()
 
 
+def play_again():
+    print("\nDo you want to play again? (y or n)")
+    # convert the player's input to lower_case
+    answer = input(">").lower()
 
 
 # start the game
