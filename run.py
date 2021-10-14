@@ -99,6 +99,14 @@ def monster_den():
     time.sleep(a)
     print("\n The monster is eating lunch...")
     time.sleep(a)
+    print("\n you just have a few seconds to get through..")
+    time.sleep(a)
+    print("\nYou see two windows.")
+    time.sleep(a)
+    print("window 1 is open but very small")
+    time.sleep(a)
+    print("Door 2 is closed but big enough for you to fit through")
+    time.sleep(a)
 
 # start the game
 start()
