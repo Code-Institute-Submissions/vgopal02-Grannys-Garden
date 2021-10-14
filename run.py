@@ -68,8 +68,8 @@ def bear_den():
     print("Door 2 is guarded by the sleeping bear")
     time.sleep(a)
     print("Which door will you choose to take (1 or 2)")
-    print("1). Door guarded by the honey jar.")
-    print("2). Door guarded by the sleeping bear")
+    print("1. Door guarded by the honey jar.")
+    print("2. Door guarded by the sleeping bear")
     # convert the player's input() to lower_case
     answer = input(">").lower()
     # if player typed "1" game over()
@@ -148,8 +148,8 @@ def dungeon_den():
     print("Door 2 will lead you through a room with a starving tiger")
     time.sleep(a)
     print("Which door will you choose to take (1 or 2)")
-    print("1). Door leading to room with a sleeping snake.")
-    print("2). Door leading to room with starving tiger")
+    print("1. Door leading to room with a sleeping snake.")
+    print("2. Door leading to room with starving tiger")
     # convert the player's input() to lower_case
     answer = input(">").lower()
     # if player typed "1" game over()
@@ -187,8 +187,8 @@ def dungeon_den():
     print("Door 2 will lead you through a room with a starving tiger")
     time.sleep(a)
     print("Which door will you choose to take (1 or 2)")
-    print("1). Door leading to room with a sleeping snake.")
-    print("2). Door leading to room with starving tiger")
+    print("1. Door leading to room with a sleeping snake.")
+    print("2. Door leading to room with starving tiger")
     # convert the player's input() to lower_case
     answer = input(">").lower()
     # if player typed "1" game over()
