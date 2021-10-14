@@ -43,4 +43,22 @@ def cross_roads():
         monster_den()
     # else return to start()
     else:
-        start()
+        print("\n Incorrect Answer")
+        print("\n To continue playing press 1 or press 2 to quit the game")
+        # convert the player's input() to lower_case
+        answer = input(">").lower()
+        if answer == "1":
+            cross_roads()
+        elif answer == "2":
+            print("\n sorry to see you go")
+            exit()
+        else:
+            exit()
+
+# start the game
+start()
+
+
+
+# start the game
+start()
