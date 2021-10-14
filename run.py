@@ -199,7 +199,19 @@ def dungeon_den():
         game_win()
     # else return to start()
     else:
-        start()
+        print("\n Incorrect Answer")
+        print("\n To continue playing press 1 or press 2 to quit the game")
+        # convert the player's input() to lower_case
+        answer = input(">").lower()
+        if answer == "1":
+            bear_den()
+        elif answer == "2":
+            print("\n Sorry to see you go!")
+            print("\n You almost rescued her !!! ")
+            print("\n Granny really hopes you will be back soon")
+            exit()
+        else:
+            exit()
 
 
 # start the game
