@@ -213,6 +213,14 @@ def dungeon_den():
         else:
             exit()
 
+def game_over():
+    # print the "reason" in a new line (\n)
+    print("\n Sorry there was nothing beyond ...")
+    print("\n you fell down the cliff!")
+    print("\n Game Over!")
+    # ask player to play again or not by activating play_again() function
+    play_again()
+
 
 # start the game
 start()
