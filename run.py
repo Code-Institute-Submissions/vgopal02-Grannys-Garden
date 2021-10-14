@@ -222,5 +222,8 @@ def game_over():
     play_again()
 
 
+
+
+
 # start the game
 start()
