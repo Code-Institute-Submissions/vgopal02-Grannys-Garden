@@ -69,6 +69,17 @@ def bear_den():
     print("Which door will you choose to take (1 or 2)")
     print("1). Door guarded by the honey jar.")
     print("2). Door guarded by the sleeping bear")
+    # convert the player's input() to lower_case
+    answer = input(">").lower()
+    # if player typed "1" game over()
+    if answer == "1":
+        game_over()
+    # else if player typed "2" lead him to dungeon_den()
+    elif answer == "2":
+        dungeon_den()
+    # else return to start()
+    else:
+        start()
 
 # start the game
 start()
