@@ -66,6 +66,9 @@ def bear_den():
     time.sleep(a)
     print("Door 2 is guarded by the sleeping bear")
     time.sleep(a)
+    print("Which door will you choose to take (1 or 2)")
+    print("1). Door guarded by the honey jar.")
+    print("2). Door guarded by the sleeping bear")
 
 # start the game
 start()
