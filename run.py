@@ -50,7 +50,8 @@ def cross_roads():
         if answer == "1":
             cross_roads()
         elif answer == "2":
-            print("\n sorry to see you go")
+            print("\n Sorry to see you go!")
+            print("\n Granny hopes you will return to rescue her")
             exit()
         else:
             exit()
