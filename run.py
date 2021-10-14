@@ -35,3 +35,12 @@ def cross_roads():
     print("\n Will you take the left or right door? (l or r)")
     # convert the player's input() to lower_case
     answer = input(">").lower()
+    # if player typed "left" or "l" lead him to bear_room()
+    if answer == "l":
+        bear_den()
+    # else if player typed "right" or "r" lead him to monster_room()
+    elif answer == "r":
+        monster_den()
+    # else return to start()
+    else:
+        start()
