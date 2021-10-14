@@ -176,5 +176,18 @@ def dungeon_den():
 
 def dungeon_den():
     # give some prompts.
+    print("\nWell done! You escaped the sleeping bear.")
+    time.sleep(a)
+    print("\nYou have entered the witch's dungeon den.")
+    time.sleep(a)
+    print("\nAgain you see two doors")
+    time.sleep(a)
+    print("Door 1 will lead you through a room with a sleeping snake")
+    time.sleep(a)
+    print("Door 2 will lead you through a room with a starving tiger")
+    time.sleep(a)
+    print("Which door will you choose to take (1 or 2)")
+    print("1). Door leading to room with a sleeping snake.")
+    print("2). Door leading to room with starving tiger")
 # start the game
 start()
