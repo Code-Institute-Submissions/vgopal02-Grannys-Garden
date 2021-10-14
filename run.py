@@ -237,7 +237,16 @@ def play_again():
     print("\nDo you want to play again? (y or n)")
     # convert the player's input to lower_case
     answer = input(">").lower()
+    if answer == "y":
+        # take player to cross_roads
+        start()
+    elif answer == "n":
+        # exit() the program
+        exit("\n Sorry to see you go.")
+    else:
+        # return to start()
+        start()
 
-
+        
 # start the game
 start()
