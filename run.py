@@ -147,7 +147,20 @@ def dungeon_den():
     time.sleep(a)
     print("Door 2 will lead you through a room with a starving tiger")
     time.sleep(a)
-    
+    print("Which door will you choose to take (1 or 2)")
+    print("1). Door leading to room with a sleeping snake.")
+    print("2). Door leading to room with starving tiger")
+    # convert the player's input() to lower_case
+    answer = input(">").lower()
+    # if player typed "1" game over()
+    if answer == "1":
+        game_over()
+    # else if player typed "2" game_win()
+    elif answer == "2":
+        game_win()
+    # else return to start()
+    else:
+        start()
     
 
 # start the game
