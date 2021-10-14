@@ -55,10 +55,18 @@ def cross_roads():
         else:
             exit()
 
+
+def bear_den():
+    # give some prompts.
+    print("\nYou have entered the bear's den")
+    time.sleep(a)
+    print("\nYou see two doors.")
+    time.sleep(a)
+    print("Door 1 is guarded by a pot of honey")
+    time.sleep(a)
+    print("Door 2 is guarded by the sleeping bear")
+    time.sleep(a)
+
 # start the game
 start()
 
-
-
-# start the game
-start()
