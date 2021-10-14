@@ -222,6 +222,16 @@ def game_over():
     play_again()
 
 
+def game_win():
+    # print the "reason" in a new line (\n)
+    print("\n By the time you came into the room ..")
+    print("\n ...the tiger had been starving for 2 years and died!")
+    print("\n You could walk through the door..")
+    print("\n And exit out into the garden where Granny was kept")
+    print("\n Well done on rescuing Granny!")
+    # ask player to play again or not by activating play_again() function
+    play_again()
+
 
 
 
