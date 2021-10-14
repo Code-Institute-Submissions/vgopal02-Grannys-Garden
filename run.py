@@ -137,11 +137,11 @@ def monster_den():
 
 def dungeon_den():
     # give some prompts.
-    print("\nWell done! You escaped the sleeping bear.")
+    print("\n Well done! ")
     time.sleep(a)
-    print("\nYou have entered the witch's dungeon den.")
+    print("\n You have now entered the witch's dungeon den.")
     time.sleep(a)
-    print("\nAgain you see two doors")
+    print("\n Again you see two doors")
     time.sleep(a)
     print("Door 1 will lead you through a room with a sleeping snake")
     time.sleep(a)
@@ -173,8 +173,8 @@ def dungeon_den():
         else:
             exit()
 
-         
-    
 
+def dungeon_den():
+    # give some prompts.
 # start the game
 start()
