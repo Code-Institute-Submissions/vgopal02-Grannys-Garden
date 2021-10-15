@@ -48,3 +48,9 @@ When I worte the project,notable errors included:
 - Unwanted white spaces
 - Incorrect indentation , which resulted in the program not working properly.
 - Incorrect line spaces between functions.
+- Within each function , the nested "if" statement within the "else" statement was not working properly as it had not been structured properly.
+
+Remaining Bugs
+- No bugs remaining.
+
+
