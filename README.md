@@ -70,7 +70,7 @@ This project was deployed using a mock terminal for Heroku.
 # Credits
 ### Code & Creation
 
--   [The Coding pie](thecodingpie.com/post/make-your-own-text-based-adventure-game-in-python3) 
+-   [The Coding pie](https://thecodingpie.com/post/make-your-own-text-based-adventure-game-in-python3) 
 
 -   [Lucid Charts](https://www.lucidchart.com/pages/) 
 
