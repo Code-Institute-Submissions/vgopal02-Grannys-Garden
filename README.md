@@ -41,3 +41,10 @@ I have manually tested this project by doing the following:
 
 
 ### Bugs
+Solved Bugs
+
+When I worte the project,notable errors included:
+
+- Unwanted white spaces
+- Incorrect indentation , which resulted in the program not working properly.
+- Incorrect line spaces between functions.
