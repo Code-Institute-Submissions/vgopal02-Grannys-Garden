@@ -37,9 +37,6 @@ I have manually tested this project by doing the following:
 - Given invalid options to ensure the function will check if the user wantes to continue playing or quit the game.
 - Tested in my local terminal and Heroku terminal.
 
-
-
-
 # Bugs
 ### Solved Bugs
 
@@ -69,3 +66,28 @@ This project was deployed using a mock terminal for Heroku.
     - Set the buildbacks to Python and NodeJS , in that order.
     - Link the Heroku app to the repository.
     - Click on deploy.
+
+# Credits
+### Code & Creation
+
+-   [The Coding pie](thecodingpie.com/post/make-your-own-text-based-adventure-game-in-python3) 
+
+-   [Lucid Charts](https://www.lucidchart.com/pages/) 
+
+### Inspiration
+
+-  [Granny's Garden](https://en.wikipedia.org/wiki/Granny%27s_Garden)
+
+### Content
+
+-   All content was written by the developer.
+
+
+### Media
+
+- Screen Shots were sourced from [AmIresponsive](ami.responsivedesign) and screenshots through desktop.
+
+
+### Acknowledgements
+
+-  I would like thank my mentor Adegbenga Adeye. His guidance in giving constructive feedback through all stages of site design and development has been most valuable.
