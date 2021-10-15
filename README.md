@@ -37,11 +37,11 @@ I have manually tested this project by doing the following:
 - Given invalid options to ensure the function will check if the user wantes to continue playing or quit the game.
 - Tested in my local terminal and Heroku terminal.
 
-<h2 align="center"><img src="readme/images/PEP8.png" alt="Website Screen Shots" width="700" height="400"></h2>
 
 
-### Bugs
-Solved Bugs
+
+## Bugs
+### Solved Bugs
 
 When I worte the project,notable errors included:
 
@@ -50,7 +50,14 @@ When I worte the project,notable errors included:
 - Incorrect line spaces between functions.
 - Within each function , the nested "if" statement within the "else" statement was not working properly as it had not been structured properly.
 
-Remaining Bugs
+### Remaining Bugs
 - No bugs remaining.
 
+### Validator Testing
+ - PEP8 
 
+    - No errors were returned from PEP8online.com
+
+    <h2 align="center"><img src="readme/images/PEP8.png" alt="Website Screen Shots" width="700" height="400"></h2>
+
+ 
