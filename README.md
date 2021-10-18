@@ -27,7 +27,7 @@ who has been kidnapped by the wicked witch.</p>
 
 [Lucid Charts](https://www.lucidchart.com/pages/).</p>
 
-<h2 align="center"><img src="readme/images/flow_chart.png" alt="Website Screen Shots" width="750" height="700"></h2>
+<h2 align="center"><img src="readme/images/flow_chart.jpeg" alt="Website Screen Shots" width="750" height="700"></h2>
     
    
 # Testing
