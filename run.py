@@ -29,12 +29,12 @@ def start():
 
 
 def cross_roads():
-    # give some prompts.
-    print("\nThank you for coming to Granny's rescue.")
+    # Storyline prompts
+    print("\n Thank you for coming to Granny's rescue.")
     time.sleep(a)
-    print("\nYou are at a crossroad with 2 doors.")
+    print("\n You are at a crossroad with 2 doors.")
     time.sleep(a)
-    print("\n Will you take the left or right door? (l or r)")
+    print("\n Will you take the left or right door? (L or R)")
     # convert the player's input() to lower_case
     answer = input(">").lower()
     # if player typed "left" or "l" lead him to bear_den()
@@ -50,28 +50,31 @@ def cross_roads():
         # convert the player's input() to lower_case
         answer = input(">").lower()
         if answer == "1":
+             # take player to cross_roads
             cross_roads()
         elif answer == "2":
+             # allow player to exit
             print("\n Sorry to see you go!")
             print("\n Granny hopes you will return to rescue her")
             exit()
         else:
-            exit()
+             # take player to play_again()
+            play_again()
 
 
 def bear_den():
-    # give some prompts.
-    print("\nYou have entered the bear's den")
+    # Storyline prompts
+    print("\n You have entered the bear's den")
     time.sleep(a)
-    print("\nYou see two doors.")
+    print("\n You see two doors.")
     time.sleep(a)
-    print("Door 1 is guarded by a pot of honey")
+    print("\n Door 1 is guarded by a pot of honey")
     time.sleep(a)
-    print("Door 2 is guarded by the sleeping bear")
+    print("\n Door 2 is guarded by the sleeping bear")
     time.sleep(a)
-    print("Which door will you choose to take (1 or 2)")
-    print("1. Door guarded by the honey jar.")
-    print("2. Door guarded by the sleeping bear")
+    print("\n Which door will you choose to take (1 or 2)")
+    print("\n 1. Door guarded by the honey jar.")
+    print("\n 2. Door guarded by the sleeping bear")
     # convert the player's input() to lower_case
     answer = input(">").lower()
     # if player typed "1" game over()
@@ -80,8 +83,8 @@ def bear_den():
     # else if player typed "2" lead him to dungeon_den()
     elif answer == "2":
         dungeon_den()
-    # else return to start()
     else:
+        # if wrong key typed allow user to return to bear_den() to continue or exit
         print("\n Incorrect Answer")
         print("\n To continue playing press 1 or press 2 to quit the game")
         # convert the player's input() to lower_case
@@ -89,11 +92,13 @@ def bear_den():
         if answer == "1":
             bear_den()
         elif answer == "2":
+             # allow player to exit
             print("\n Sorry to see you go!")
             print("\n Granny hopes you will return to rescue her")
             exit()
         else:
-            exit()
+            # take player to play_again()
+            play_again()
 
 
 def monster_den():
@@ -120,9 +125,9 @@ def monster_den():
         dungeon_den()
     # else if player typed "2" lead him to game_over()
     elif answer == "2":
-        game_over()
-    # else return to start()
+        game_over()  
     else:
+        # if wrong key typed take give player option to get back to bear_den() or exit game
         print("\n Incorrect Answer")
         print("\n To continue playing press 1 or press 2 to quit the game")
         # convert the player's input() to lower_case
