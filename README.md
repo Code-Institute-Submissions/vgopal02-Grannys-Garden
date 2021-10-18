@@ -1,7 +1,7 @@
 <h1 align="center">Granny's Garden</h1>
 
 [View the live project here.](https://grannys-garden.herokuapp.com/)
-<h2 align="center"><img src="readme/images/screenshot.png" alt="Website Screen Shots" width="700" height="500"></h2>
+<h2 align="center"><img src="readme/images/screenshot.png" alt="Mock Terminal Screen Shot" width="700" height="500"></h2>
 
 <p style="justify">Granny's Garden is a Python terminal game which runs in a mock terminal on Heroku. Users have to try and save Granny 
 who has been kidnapped by the wicked witch.</p>
