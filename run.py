@@ -134,7 +134,7 @@ def monster_den():
         # convert the player's input() to lower_case
         answer = input(">").lower()
         if answer == "1":
-            bear_den()
+            monster_den()
         elif answer == "2":
             print("\n Sorry to see you go!")
             print("\n Granny hopes you will return to rescue her")
