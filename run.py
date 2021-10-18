@@ -152,13 +152,13 @@ def dungeon_den():
     time.sleep(a)
     print("\n Again you see two doors")
     time.sleep(a)
-    print("Door 1 will lead you through a room with a sleeping snake")
+    print("\n Door 1 will lead you through a room with a sleeping snake")
     time.sleep(a)
-    print("Door 2 will lead you through a room with a starving tiger")
+    print("\n Door 2 will lead you through a room with a starving tiger")
     time.sleep(a)
-    print("Which door will you choose to take (1 or 2)")
-    print("1. Door leading to room with a sleeping snake.")
-    print("2. Door leading to room with starving tiger")
+    print("\n Which door will you choose to take (1 or 2)")
+    print("\n 1. Door leading to room with a sleeping snake.")
+    print("\n 2. Door leading to room with starving tiger")
     # convert the player's input() to lower_case
     answer = input(">").lower()
     # if player typed "1" game over()
@@ -224,7 +224,7 @@ def game_win():
 
 
 def play_again():
-    print("\nDo you want to play again? (y or n)")
+    print("\n Do you want to play again? (y or n)")
     # convert the player's input to lower_case
     answer = input(">").lower()
     if answer == "y":
