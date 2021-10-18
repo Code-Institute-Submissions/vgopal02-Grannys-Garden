@@ -58,7 +58,7 @@ When I wrote the project,notable errors included:
 
     - No errors were returned from PEP8online.com.
 
-    <h2 align="center"><img src="readme/images/pep8.png" alt="Website Screen Shots" width="850" height="400"></h2>
+    <h2 align="center"><img src="readme/images/pep8.png" alt="Website Screen Shots" width="800" height="400"></h2>
 
 # Creation and Deployment
 
