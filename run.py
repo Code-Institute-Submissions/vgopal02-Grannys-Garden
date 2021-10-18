@@ -103,7 +103,7 @@ def bear_den():
 
 
 def monster_den():
-    # give some prompts.
+    # Storyline prompts
     print("\n You have entered the monster den")
     time.sleep(a)
     print("\n The monster is eating lunch...")
