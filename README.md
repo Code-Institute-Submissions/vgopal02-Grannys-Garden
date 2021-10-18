@@ -29,7 +29,7 @@ to the play_again() function to check if they still want to play.
 The logic of the game has been based on the flow chart created on 
 [Lucid Charts](https://www.lucidchart.com/pages/).
 
-<h2 align="center"><img src="readme/images/flow_chart.png" alt="Website Screen Shots" width="850" height="700"></h2>
+<h2 align="center"><img src="readme/images/flowchart.png" alt="Website Screen Shots" width="850" height="700"></h2>
     
    
 # Testing
