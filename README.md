@@ -43,7 +43,7 @@ I have manually tested this project by doing the following:
 
 When I wrote the project,notable errors included:
 
-- Unwanted white spaces
+- Unwanted white spaces.
 - Incorrect indentation , which resulted in the program not working properly.
 - Incorrect line spaces between functions.
 - Within each function , the nested "if" statement within the "else" statement was not working properly as it had not been structured properly.
