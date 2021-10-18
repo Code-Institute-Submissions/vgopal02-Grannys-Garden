@@ -5,7 +5,7 @@ a = 2
 
 def start():
     # Storyline prompts
-    print("WELCOME TO GRANNY'S GARDEN\n")
+    print("\n WELCOME TO GRANNY'S GARDEN\n")
     print("\n Granny was in the garden picking apples....")
     time.sleep(a)
     print("\n when the wicked witch from across the mountain kidnapped her!")
@@ -20,7 +20,9 @@ def start():
         cross_roads()
     elif answer == "n":
         # exit() the program
-        exit("\n Sorry to see you go.")
+        print("\n Sorry to see you go")
+        print("\n Granny hopes you will be back to rescue her")
+        play_again()
     else:
         # return to start()
         start()
