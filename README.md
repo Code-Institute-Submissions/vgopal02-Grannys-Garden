@@ -8,9 +8,7 @@ who has been kidnapped by the wicked witch.</p>
 
 ### Origin of the game
 
-<p style="justify">Granny's Garden is a logic game based on the educational adventure game created for the British BBC Micro computer, released in 1983. You can read more about it on:</p> 
-
-[Wikipedia](https://en.wikipedia.org/wiki/Granny%27s_Garden)
+Granny's Garden is a logic game based on the educational adventure game created for the British BBC Micro computer, released in 1983. You can read more about it on [Wikipedia](https://en.wikipedia.org/wiki/Granny%27s_Garden). 
 
 # How to play
 
@@ -20,12 +18,16 @@ who has been kidnapped by the wicked witch.</p>
 
 <p style="justify">Eventually the user will complete the game by either losing as the incorrect path was chosen or winning by rescuing granny after the correct path is chosen.</p> 
 
-<p style="justify">At every stage the user is presented with two paths. Should the user type in an incorrect answer , the game will alert the user as "Incorrect Answer". Furthermore , at that stage will check if the user wants to continue playing or quit the game. This has been designed to allow the user to quit the game at any stage without feeling trapped. Should it have just been a mistake the user is taken back to the start of the same function , to continue playing from where they were.</p> 
+<p style="justify">At every stage the user is presented with two paths. Should the user type in an incorrect answer , the game will alert the user as "Incorrect Answer". Furthermore , at that stage will check if the user wants to continue playing or quit the game. 
+This has been done to allow the user to exit the game at any stage without feeling trapped. 
+
+If the user continues to type an incorrect answer it will take them
+to the play_again() function to check if they still want to play.
+</p> 
 
 # Data Model
-<p style="justify">The logic of the game has been based on the flow chart created on 
-
-[Lucid Charts](https://www.lucidchart.com/pages/).</p>
+The logic of the game has been based on the flow chart created on 
+[Lucid Charts](https://www.lucidchart.com/pages/).
 
 <h2 align="center"><img src="readme/images/flow_chart.png" alt="Website Screen Shots" width="850" height="700"></h2>
     
@@ -58,8 +60,25 @@ When I wrote the project,notable errors included:
 
     <h2 align="center"><img src="readme/images/pep8.png" alt="Website Screen Shots" width="700" height="400"></h2>
 
-# Deployment
-This project was deployed using a mock terminal for Heroku.
+# Creation and Deployment
+
+GitHub Pages
+The project has been created on gitpod and deployed to GitHub Pages using the following steps...
+
+1.Log in to GitHub and locate the GitHub Repository
+
+2.At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+
+3.Scroll down the Settings page until you locate the "GitHub Pages" Section.
+
+4.Under "Source", click the dropdown called "None" and select "Master Branch".
+
+5.The page will automatically refresh.
+
+6.Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+
+This project was then deployed using a mock terminal for Heroku.
 
 - Steps for deployment
     - Fork or clone this repository.
