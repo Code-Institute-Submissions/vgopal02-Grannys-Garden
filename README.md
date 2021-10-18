@@ -56,7 +56,7 @@ When I wrote the project,notable errors included:
 
     - No errors were returned from PEP8online.com.
 
-    <h2 align="center"><img src="readme/images/PEP8.png" alt="Website Screen Shots" width="700" height="400"></h2>
+    <h2 align="center"><img src="readme/images/pep8.png" alt="Website Screen Shots" width="700" height="400"></h2>
 
 # Deployment
 This project was deployed using a mock terminal for Heroku.
