@@ -58,29 +58,15 @@ When I wrote the project,notable errors included:
 
     - No errors were returned from PEP8online.com.
 
-    <h2 align="center"><img src="readme/images/pep8.png" alt="Website Screen Shots" width="700" height="400"></h2>
+    <h2 align="center"><img src="readme/images/pep8.png" alt="Website Screen Shots" width="850" height="400"></h2>
 
 # Creation and Deployment
 
-GitHub Pages
-The project has been created on gitpod and deployed to GitHub Pages using the following steps...
+The project has been created on gitpod and deployed to GitHub Pages. 
 
-1.Log in to GitHub and locate the GitHub Repository
+It was then deployed using a mock terminal for Heroku.
 
-2.At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-
-3.Scroll down the Settings page until you locate the "GitHub Pages" Section.
-
-4.Under "Source", click the dropdown called "None" and select "Master Branch".
-
-5.The page will automatically refresh.
-
-6.Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
-
-
-This project was then deployed using a mock terminal for Heroku.
-
-- Steps for deployment
+- Steps for deployment to Heroku Mock Terminal
     - Fork or clone this repository.
     - Create a new Heroku app.
     - Set the buildbacks to Python and NodeJS , in that order.
@@ -105,9 +91,9 @@ This project was then deployed using a mock terminal for Heroku.
 
 ### Media
 
-- Screen Shots were sourced from [AmIresponsive](ami.responsivedesign) and screenshots through desktop.
+- Mock Terminal Screen Shot was sourced from [AmIresponsive](ami.responsivedesign).
 
 
-### Acknowledgements
+### Acknowledgement(s)
 
 -  I would like thank my mentor Adegbenga Adeye. His guidance in giving constructive feedback through all stages of site design and development has been most valuable.
