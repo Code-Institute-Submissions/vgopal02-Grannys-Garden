@@ -84,7 +84,7 @@ def bear_den():
     elif answer == "2":
         dungeon_den()
     else:
-        # if wrong key typed option to get back to bear_den(),exit game or start again
+        # if wrong key typed get back to bear_den(),exit game or start again
         print("\n Incorrect Answer")
         print("\n To continue playing press 1 or press 2 to quit the game")
         # convert the player's input() to lower_case
@@ -126,9 +126,9 @@ def monster_den():
         dungeon_den()
     # else if player typed "2" lead him to game_over()
     elif answer == "2":
-        game_over()  
+        game_over()
     else:
-        # if wrong key typed option to get back to monster_den(),exit game or start again
+        # if wrong key typed get back to monster_den(),exit game or start again
         print("\n Incorrect Answer")
         print("\n To continue playing press 1 or press 2 to quit the game")
         # convert the player's input() to lower_case
@@ -185,7 +185,7 @@ def dungeon_den():
 
 
 def game_over():
-    # print the "reason" in a new line 
+    # print the "reason" in a new line
     print("\n Sorry there was nothing beyond ...")
     time.sleep(a)
     print("\n and you fell down the cliff!")
@@ -197,7 +197,7 @@ def game_over():
 
 
 def game_over_1():
-    # print the "reason" in a new line 
+    # print the "reason" in a new line
     print("\n The sleeping snake could feel the vibrations")
     time.sleep(a)
     print("\n as you entered the room and woke....")
