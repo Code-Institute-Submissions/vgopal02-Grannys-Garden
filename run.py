@@ -84,7 +84,7 @@ def bear_den():
     elif answer == "2":
         dungeon_den()
     else:
-        # wrong key typed user to return to bear_den() to continue or exit
+        # if wrong key typed option to get back to bear_den(),exit game or start again
         print("\n Incorrect Answer")
         print("\n To continue playing press 1 or press 2 to quit the game")
         # convert the player's input() to lower_case
@@ -94,12 +94,12 @@ def bear_den():
         elif answer == "2":
             # allow player to exit
             print("\n Sorry to see you go!")
+            time.sleep(a)
             print("\n Granny hopes you will return to rescue her")
             exit()
         else:
             # take player to play_again()
             play_again()
-
 
 
 def monster_den():
@@ -128,7 +128,7 @@ def monster_den():
     elif answer == "2":
         game_over()  
     else:
-        # if wrong key typed take give player option to get back to bear_den() or exit game
+        # if wrong key typed option to get back to monster_den(),exit game or start again
         print("\n Incorrect Answer")
         print("\n To continue playing press 1 or press 2 to quit the game")
         # convert the player's input() to lower_case
@@ -137,6 +137,7 @@ def monster_den():
             monster_den()
         elif answer == "2":
             print("\n Sorry to see you go!")
+            time.sleep(a)
             print("\n Granny hopes you will return to rescue her")
             exit()
         else:
@@ -162,7 +163,7 @@ def dungeon_den():
     answer = input(">").lower()
     # if player typed "1" game over()
     if answer == "1":
-        game_over()
+        game_over_1()
     # else if player typed "2" game_win()
     elif answer == "2":
         game_win()
@@ -176,57 +177,33 @@ def dungeon_den():
             bear_den()
         elif answer == "2":
             print("\n Sorry to see you go!")
+            time.sleep(a)
             print("\n You were so close to rescuing her!!!")
             exit()
         else:
             exit()
 
 
-def dungeon_den():
-    # give some prompts.
-    print("\nWell done! You escaped the sleeping bear.")
-    time.sleep(a)
-    print("\n You have entered the witch's dungeon den.")
-    time.sleep(a)
-    print("\n Again you see two doors")
-    time.sleep(a)
-    print("Door 1 will lead you through a room with a sleeping snake")
-    time.sleep(a)
-    print("Door 2 will lead you through a room with a starving tiger")
-    time.sleep(a)
-    print("Which door will you choose to take (1 or 2)")
-    print("1. Door leading to room with a sleeping snake.")
-    print("2. Door leading to room with starving tiger")
-    # convert the player's input() to lower_case
-    answer = input(">").lower()
-    # if player typed "1" game over()
-    if answer == "1":
-        game_over()
-    # else if player typed "2" game_win()
-    elif answer == "2":
-        game_win()
-    # else return to start()
-    else:
-        print("\n Incorrect Answer")
-        print("\n To continue playing press 1 or press 2 to quit the game")
-        # convert the player's input() to lower_case
-        answer = input(">").lower()
-        if answer == "1":
-            bear_den()
-        elif answer == "2":
-            print("\n Sorry to see you go!")
-            print("\n You almost rescued her !!! ")
-            print("\n Granny really hopes you will be back soon")
-            exit()
-        else:
-            exit()
-
-
 def game_over():
-    # print the "reason" in a new line (\n)
+    # print the "reason" in a new line 
     print("\n Sorry there was nothing beyond ...")
-    print("\n you fell down the cliff!")
+    time.sleep(a)
+    print("\n and you fell down the cliff!")
+    time.sleep(a)
     print("\n Game Over!")
+    time.sleep(a)
+    # ask player to play again or not by activating play_again() function
+    play_again()
+
+
+def game_over_1():
+    # print the "reason" in a new line 
+    print("\n The sleeping snake could feel the vibrations")
+    time.sleep(a)
+    print("\n as you entered the room and woke....")
+    time.sleep(a)
+    print("\n Game Over!")
+    time.sleep(a)
     # ask player to play again or not by activating play_again() function
     play_again()
 
@@ -234,9 +211,13 @@ def game_over():
 def game_win():
     # print the "reason" in a new line (\n)
     print("\n By the time you came into the room ..")
+    time.sleep(a)
     print("\n ...the tiger had been starving for 2 years and died!")
+    time.sleep(a)
     print("\n You could walk through the door..")
+    time.sleep(a)
     print("\n And exit out into the garden where Granny was kept")
+    time.sleep(a)
     print("\n Well done on rescuing Granny!")
     # ask player to play again or not by activating play_again() function
     play_again()
