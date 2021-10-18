@@ -50,15 +50,15 @@ def cross_roads():
         # convert the player's input() to lower_case
         answer = input(">").lower()
         if answer == "1":
-             # take player to cross_roads
+            # take player to cross_roads
             cross_roads()
         elif answer == "2":
-             # allow player to exit
+            # allow player to exit
             print("\n Sorry to see you go!")
             print("\n Granny hopes you will return to rescue her")
             exit()
         else:
-             # take player to play_again()
+            # take player to play_again()
             play_again()
 
 
@@ -84,7 +84,7 @@ def bear_den():
     elif answer == "2":
         dungeon_den()
     else:
-        # if wrong key typed allow user to return to bear_den() to continue or exit
+        # wrong key typed user to return to bear_den() to continue or exit
         print("\n Incorrect Answer")
         print("\n To continue playing press 1 or press 2 to quit the game")
         # convert the player's input() to lower_case
@@ -92,7 +92,7 @@ def bear_den():
         if answer == "1":
             bear_den()
         elif answer == "2":
-             # allow player to exit
+            # allow player to exit
             print("\n Sorry to see you go!")
             print("\n Granny hopes you will return to rescue her")
             exit()
@@ -101,23 +101,24 @@ def bear_den():
             play_again()
 
 
+
 def monster_den():
     # give some prompts.
-    print("\nYou have entered the monster den")
+    print("\n You have entered the monster den")
     time.sleep(a)
     print("\n The monster is eating lunch...")
     time.sleep(a)
     print("\n you just have a few seconds to get through..")
     time.sleep(a)
-    print("\nYou see two windows.")
+    print("\n You see two windows.")
     time.sleep(a)
-    print("window 1 is open but very small")
+    print("\n window 1 is open but very small")
     time.sleep(a)
-    print("Door 2 is closed but big enough for you to fit through")
+    print("\n Door 2 is closed but big enough for you to fit through")
     time.sleep(a)
-    print("Which door will you choose to take (1 or 2)")
-    print("1. Squeeze through the small window")
-    print("2. Open the bigger window and comfortably slide through")
+    print("\n Which door will you choose to take (1 or 2)")
+    print("\n 1. Squeeze through the small window")
+    print("\n 2. Open the bigger window and comfortably slide through")
     # convert the player's input() to lower_case
     answer = input(">").lower()
     # if player typed "1" dungeon_den()
@@ -139,7 +140,7 @@ def monster_den():
             print("\n Granny hopes you will return to rescue her")
             exit()
         else:
-            exit()
+            play_again()
 
 
 def dungeon_den():
