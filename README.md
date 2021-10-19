@@ -3,8 +3,7 @@
 [View the live project here.](https://grannys-garden.herokuapp.com/)
 <h2 align="center"><img src="readme/images/screenshot.png" alt="Mock Terminal Screen Shot" width="850" height="550"></h2>
 
-<p style="justify">Granny's Garden is a Python terminal game which runs in a mock terminal on Heroku. Users have to try and save Granny 
-who has been kidnapped by the wicked witch.</p>
+<p style="justify">Granny's Garden is a Python terminal game that runs in a mock terminal on Heroku. Users need to try and save Granny, who the wicked witch has kidnapped.</p>
 
 ### Origin of the game
 
