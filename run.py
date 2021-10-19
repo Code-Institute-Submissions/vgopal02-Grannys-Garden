@@ -34,7 +34,7 @@ def cross_roads():
     time.sleep(a)
     print("\n You are at a crossroad with 2 doors.")
     time.sleep(a)
-    print("\n WILL YOU TAKE THE DOOR ON THE LEFT OR RIGHT (L or R)")
+    print("\n WILL YOU TAKE THE DOOR ON THE LEFT OR RIGHT? (L or R)")
     # convert the player's input() to lower_case
     answer = input(">").lower().strip()
     # if player typed "left" or "l" lead him to bear_den()
@@ -72,7 +72,7 @@ def bear_den():
     time.sleep(a)
     print("\n Door 2 is guarded by the sleeping bear")
     time.sleep(a)
-    print("\n WHICH DOOR WILL YOU CHOOSE TO TAKE (1 or 2) ?")
+    print("\n WHICH DOOR WILL YOU CHOOSE TO TAKE? (1 or 2) ?")
     print("\n 1. Door guarded by the honey jar.")
     print("\n 2. Door guarded by the sleeping bear")
     # convert the player's input() to lower_case
@@ -224,7 +224,7 @@ def game_win():
 
 
 def play_again():
-    print("\n DO YOU WANT TO PLAY AGAIN (y or n)")
+    print("\n DO YOU WANT TO PLAY AGAIN ?(y or n)")
     # convert the player's input to lower_case
     answer = input(">").lower().strip()
     if answer == "y":

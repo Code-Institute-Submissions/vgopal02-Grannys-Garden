@@ -140,15 +140,16 @@ It was then deployed using a mock terminal for Heroku.
 
 -  [Granny's Garden](https://en.wikipedia.org/wiki/Granny%27s_Garden)
 
-### Content
+### Content & Deployment
 
 - All content for the game is written by the developer.
 - Language and Grammar for the Readme.md corrected using [Grammarly](https://www.grammarly.com).
+- Code Institute for the deployment terminal.
 
 
 ### Media
 
-- Mock Terminal Screen Shot was sourced from [AmIresponsive](ami.responsivedesign).
+- Mock Terminal Screen Shot was sourced from [AmIresponsive](ami.responsivedesign) and desktop screenshots.
 
 
 ### Acknowledgement(s)
