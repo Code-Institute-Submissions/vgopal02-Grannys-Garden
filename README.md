@@ -35,7 +35,7 @@ The flowchart created on
 I have manually tested this project by doing the following:
 
 - Passed the code through PEP8 linter and confirmed there are no problems.
-- Given invalid options to ensure the function will check if the user wantes to continue playing or quit the game.
+- Given invalid options to ensure the function will check if the user wanted to continue playing or quit the game.
 - Tested in my local terminal and Heroku terminal.
 
 # Bugs
