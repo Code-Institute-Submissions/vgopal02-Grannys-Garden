@@ -66,6 +66,25 @@ The flowchart created on
     - A second incorrect option will take the player to the play_again() function. 
 <h2 align="center"><img src="readme/images/f_dungeon.png" alt="Mock screenshot" width="500" height="200"></h2>
 
+- Choices
+
+    - At all levels the player is presented with two choices.
+    - An incorrect entry will query the player to continue of exit.
+    - This has been done to ensure the player does not feel trapped and always has the exit option.
+    - A second incorrect option will always take the player to play_again() function.
+<h2 align="center"><img src="readme/images/f_choices.png" alt="Mock screenshot" width="500" height="350"></h2>
+
+- Conclusion 
+    - The game concludes with the player choosing the correct path and winning by rescuing granny.
+    - By choosing the wrong path , the player loses and the game is over.
+<h2 align="center"><img src="readme/images/f_win.png" alt="Mock screenshot" width="500" height="200"></h2>
+<h2 align="center"><img src="readme/images/f_over.png" alt="Mock screenshot" width="500" height="150"></h2>
+
+- Play again
+    - At various points in the game, the player is directed to the play_again() function.
+    - Choices include restarting the game or exit.
+    -An incorrect entry from this function will always direct the user back to the start() function.
+<h2 align="center"><img src="readme/images/f_play.png" alt="Mock screenshot" width="500" height="250"></h2>
 
 # Testing
 
