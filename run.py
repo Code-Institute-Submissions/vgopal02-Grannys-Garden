@@ -218,7 +218,7 @@ def game_win():
     time.sleep(a)
     print("\n And exit out into the garden where Granny was kept")
     time.sleep(a)
-    print("\n Well done on rescuing Granny!")
+    print("\n WELL DONE ON RESCUING GRANNY!")
     # ask player to play again or not by activating play_again() function
     play_again()
 
