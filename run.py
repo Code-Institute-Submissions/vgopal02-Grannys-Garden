@@ -34,7 +34,7 @@ def cross_roads():
     time.sleep(a)
     print("\n You are at a crossroad with 2 doors.")
     time.sleep(a)
-    print("\n Will you take the left or right door? (L or R)")
+    print("\n WILL YOU TAKE THE DOOR ON THE LEFT OR RIGHT (L or R)")
     # convert the player's input() to lower_case
     answer = input(">").lower()
     # if player typed "left" or "l" lead him to bear_den()
@@ -72,7 +72,7 @@ def bear_den():
     time.sleep(a)
     print("\n Door 2 is guarded by the sleeping bear")
     time.sleep(a)
-    print("\n Which door will you choose to take (1 or 2)")
+    print("\n WHICH DOOR WILL YOU CHOOSE TO TAKE (1 or 2) ?")
     print("\n 1. Door guarded by the honey jar.")
     print("\n 2. Door guarded by the sleeping bear")
     # convert the player's input() to lower_case
@@ -116,7 +116,7 @@ def monster_den():
     time.sleep(a)
     print("\n Door 2 is closed but big enough for you to fit through")
     time.sleep(a)
-    print("\n Which door will you choose to take (1 or 2)")
+    print("\n WHICH DOOR WILL YOU CHOOSE TO TAKE (1 or 2) ?")
     print("\n 1. Squeeze through the small window")
     print("\n 2. Open the bigger window and comfortably slide through")
     # convert the player's input() to lower_case
@@ -156,7 +156,7 @@ def dungeon_den():
     time.sleep(a)
     print("\n Door 2 will lead you through a room with a starving tiger")
     time.sleep(a)
-    print("\n Which door will you choose to take (1 or 2)")
+    print("\n WHICH DOOR WILL YOU CHOOSE TO TAKE (1 or 2) ?")
     print("\n 1. Door leading to room with a sleeping snake.")
     print("\n 2. Door leading to room with starving tiger")
     # convert the player's input() to lower_case
@@ -224,7 +224,7 @@ def game_win():
 
 
 def play_again():
-    print("\n Do you want to play again? (y or n)")
+    print("\n DO YOU WANT TO PLAY AGAIN (y or n)")
     # convert the player's input to lower_case
     answer = input(">").lower()
     if answer == "y":
