@@ -37,16 +37,17 @@ I have manually tested this project by doing the following:
 - Passed the code through PEP8 linter and confirmed there are no problems.
 - Given invalid options to ensure the function will check if the user wanted to continue playing or quit the game.
 - Tested in my local terminal and Heroku terminal.
+-  Tested by peers and my mentor.
 
 # Bugs
 ### Solved Bugs
 
-When I wrote the project,notable errors included:
+When I wrote the project, notable errors included:
 
 - Unwanted white spaces.
-- Incorrect indentation , which resulted in the program not working properly.
+- Incorrect indentation, resulting in the program not functioning correctly.
 - Incorrect line spaces between functions.
-- Within each function , the nested "if" statement within the "else" statement was not working properly as it had not been structured properly.
+- Within each function, the nested "if" statement within the "else" statement did not work properly as the structure was incorrect.
 
 ### Remaining Bugs
 - No bugs remaining.
@@ -85,6 +86,7 @@ It was then deployed using a mock terminal for Heroku.
 ### Content
 
 -   All content was written by the developer.
+-   Language and Grammar for the Readme file was corrected using [Grammarly](https://www.grammarly.com).
 
 
 ### Media
@@ -94,4 +96,4 @@ It was then deployed using a mock terminal for Heroku.
 
 ### Acknowledgement(s)
 
--  I would like thank my mentor Adegbenga Adeye. His guidance in giving constructive feedback through all stages of site design and development has been most valuable.
+-  I would like to thank my mentor Adegbenga Adeye. His guidance in giving constructive feedback through all stages of site design and development has been most valuable.
