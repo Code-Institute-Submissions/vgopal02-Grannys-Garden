@@ -48,7 +48,7 @@ When I wrote the project, notable errors included:
 - Incorrect indentation, resulting in the program not functioning correctly.
 - Incorrect line spaces between functions.
 - Within each function, the nested "if" statement within the "else" statement did not work properly as the structure was incorrect.
-- Through testing, if the player added an extra blank space before entering a correct option, it was considered incorrect. And the incorrect option loop was followed. It has been resolved by using .strip(). 
+- It was found that if the player added an extra blank space before entering a correct option, it was considered incorrect. And the incorrect option loop was followed. It has been resolved by using .strip(). 
 
 ### Remaining Bugs
 - No bugs remaining.
