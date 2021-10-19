@@ -49,6 +49,15 @@ The flowchart created on
     - A second incorrect answer will take them to play_again() with the option of re-starting or exiting the game.
     <h2 align="center"><img src="readme/images/f_crossroads.png" alt="Mock screenshot" width="500" height="150"></h2>
 
+- Bear and Monster Den
+
+    - At the next level, the player will need to proceed through either the Bear or Monster den.
+    - Both den's will lead the player to either the witch's dungeon or lose the game.
+    - Through both dens entering an incorrect option will direct the player to continue playing or exit the game.
+    - A second incorrect option will take the player to the play_again() function. 
+<h2><img src="readme/images/f_bear.png" alt="Mock screenshot" width="500" height="150"></h2>
+<h2><img src="readme/images/f_monster.png" alt="Mock screenshot" width="500" height="200"></h2>
+
 
 # Testing
 
