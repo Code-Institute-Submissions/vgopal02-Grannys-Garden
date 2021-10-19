@@ -24,8 +24,8 @@ to the play_again() function to check if they still want to play.
 </p> 
 
 # Data Model
-The logic of the game has been based on the flow chart created on 
-[Lucid Charts](https://www.lucidchart.com/pages/).
+The flowchart created on 
+[Lucid Charts](https://www.lucidchart.com/pages/) gives the logic of the game.
 
 <h2 align="center"><img src="readme/images/flowchart.png" alt="Website Screen Shots" width="850" height="700"></h2>
     
