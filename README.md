@@ -11,16 +11,15 @@ Granny's Garden is a logic game based on the educational adventure game created 
 
 # How to play
 
-<p style="justify">The user is presented with an introduction storyline which presents how Granny has been kidnapped from her garden by the wicked witch.</p> 
+<p style="justify">The user is presented with an introduction storyline, which speaks of how the wicked witch kidnapped Granny from her garden.</p> 
 
-<p style="justify">The user is asked to rescue granny. If the user agrees , the games proceeds presenting the user with various options through the game.</p> 
+<p style="justify">The player is then asked if they wish to rescue granny. If they agree, the game proceeds further. It takes the player through a myriad of paths through the game.</p> 
 
-<p style="justify">Eventually the user will complete the game by either losing as the incorrect path was chosen or winning by rescuing granny after the correct path is chosen.</p> 
+<p style="justify">Eventually, the player will complete the game by either losing as the incorrect path was chosen or winning after following the correct route and rescuing granny.</p> 
 
-<p style="justify">At every stage the user is presented with two paths. Should the user type in an incorrect answer , the game will alert the user as "Incorrect Answer". Furthermore , at that stage will check if the user wants to continue playing or quit the game. 
-This has been done to allow the user to exit the game at any stage without feeling trapped. 
+<p style="justify">At every stage, the player is presented with two routes. Typing an incorrect answer will alert the player with a response of  'Incorrect answer'. At that point, it also becomes a checkpoint to see if the player wants to continue playing or exit the game. This allows the player to leave the game at any stage without feeling trapped. 
 
-If the user continues to type an incorrect answer it will take them
+If the user continues to type an incorrect answer, it will take them
 to the play_again() function to check if they still want to play.
 </p> 
 
