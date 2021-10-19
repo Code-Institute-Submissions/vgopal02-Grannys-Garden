@@ -14,7 +14,7 @@ def start():
     time.sleep(a)
     print("\n DO YOU WANT TO SAVE GRANNY? (y or n) ")
     # convert the player's input to lower_case
-    answer = input(">").lower()
+    answer = input(">").lower().strip()
     if answer == "y":
         # take player to cross_roads
         cross_roads()
@@ -36,7 +36,7 @@ def cross_roads():
     time.sleep(a)
     print("\n WILL YOU TAKE THE DOOR ON THE LEFT OR RIGHT (L or R)")
     # convert the player's input() to lower_case
-    answer = input(">").lower()
+    answer = input(">").lower().strip()
     # if player typed "left" or "l" lead him to bear_den()
     if answer == "l":
         bear_den()
@@ -48,7 +48,7 @@ def cross_roads():
         print("\n Incorrect Answer")
         print("\n To continue playing press 1 or press 2 to quit the game")
         # convert the player's input() to lower_case
-        answer = input(">").lower()
+        answer = input(">").lower().strip()
         if answer == "1":
             # take player to cross_roads
             cross_roads()
@@ -76,7 +76,7 @@ def bear_den():
     print("\n 1. Door guarded by the honey jar.")
     print("\n 2. Door guarded by the sleeping bear")
     # convert the player's input() to lower_case
-    answer = input(">").lower()
+    answer = input(">").lower().strip()
     # if player typed "1" game over()
     if answer == "1":
         game_over()
@@ -88,7 +88,7 @@ def bear_den():
         print("\n Incorrect Answer")
         print("\n To continue playing press 1 or press 2 to quit the game")
         # convert the player's input() to lower_case
-        answer = input(">").lower()
+        answer = input(">").lower().strip()
         if answer == "1":
             bear_den()
         elif answer == "2":
@@ -120,7 +120,7 @@ def monster_den():
     print("\n 1. Squeeze through the small window")
     print("\n 2. Open the bigger window and comfortably slide through")
     # convert the player's input() to lower_case
-    answer = input(">").lower()
+    answer = input(">").lower().strip()
     # if player typed "1" dungeon_den()
     if answer == "1":
         dungeon_den()
@@ -160,7 +160,7 @@ def dungeon_den():
     print("\n 1. Door leading to room with a sleeping snake.")
     print("\n 2. Door leading to room with starving tiger")
     # convert the player's input() to lower_case
-    answer = input(">").lower()
+    answer = input(">").lower().strip()
     # if player typed "1" game over()
     if answer == "1":
         game_over_1()
@@ -226,7 +226,7 @@ def game_win():
 def play_again():
     print("\n DO YOU WANT TO PLAY AGAIN (y or n)")
     # convert the player's input to lower_case
-    answer = input(">").lower()
+    answer = input(">").lower().strip()
     if answer == "y":
         # take player to start()
         start()
