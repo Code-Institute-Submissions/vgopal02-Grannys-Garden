@@ -55,8 +55,16 @@ The flowchart created on
     - Both den's will lead the player to either the witch's dungeon or lose the game.
     - Through both dens entering an incorrect option will direct the player to continue playing or exit the game.
     - A second incorrect option will take the player to the play_again() function. 
-<h2><img src="readme/images/f_bear.png" alt="Mock screenshot" width="500" height="150"></h2>
-<h2><img src="readme/images/f_monster.png" alt="Mock screenshot" width="500" height="200"></h2>
+<h2 align="center"><img src="readme/images/f_bear.png" alt="Mock screenshot" width="500" height="150"></h2>
+<h2 align="center"><img src="readme/images/f_monster.png" alt="Mock screenshot" width="500" height="200"></h2>
+
+- Dungeon Den
+
+    - If the player is successful from the previous level, they will enter the dungeon den.
+    - Here, the player will have two options leading to a win or loss.
+    - Entering an incorrect option will direct the player to continue playing or exit the game.
+    - A second incorrect option will take the player to the play_again() function. 
+<h2 align="center"><img src="readme/images/f_dungeon.png" alt="Mock screenshot" width="500" height="200"></h2>
 
 
 # Testing
