@@ -232,7 +232,9 @@ def play_again():
         start()
     elif answer == "n":
         # exit() the program
-        exit("\n Sorry to see you go.")
+        print("\n Sorry to see you go")
+        print("\n Granny hopes you will return")
+        exit()
     else:
         # return to start()
         start()
