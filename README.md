@@ -28,8 +28,28 @@ The flowchart created on
 [Lucid Charts](https://www.lucidchart.com/pages/) gives the logic of the game.
 
 <h2 align="center"><img src="readme/images/flowchart.png" alt="Website Screen Shots" width="850" height="700"></h2>
-    
-   
+
+# Features
+
+- Introduction
+    - The wicked witch has kidnapped granny.
+    - The player is given the option to rescue granny.
+    - If the play agrees, the game proceeds.
+    - If the player does not wish to, the game will end.
+    - If the player types an incorrect option, they return to start().
+   <h2 align="center"><img src="readme/images/f_start.png" alt="Mock screenshot" width="500" height="200"></h2>
+
+- Crossroads
+    - This is the first point of decision if the player proceeds to rescue granny
+    - The player is given the option to turn left or right.
+    - Left will take the player to the bear's den
+    - Right will take the player to the monster's den.
+    - If the player types an incorrect option, it is highlighted.
+    - The player is given a choice to continue playing or exit the game. 
+    - A second incorrect answer will take them to play_again() with the option of re-starting or exiting the game.
+    <h2 align="center"><img src="readme/images/f_crossroads.png" alt="Mock screenshot" width="500" height="150"></h2>
+
+
 # Testing
 
 I have manually tested this project by doing the following:
