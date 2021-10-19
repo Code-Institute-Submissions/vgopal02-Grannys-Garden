@@ -7,7 +7,7 @@
 
 ### Origin of the game
 
-Granny's Garden is a logic game based on the educational adventure game created for the British BBC Micro computer, released in 1983. You can read more about it on [Wikipedia](https://en.wikipedia.org/wiki/Granny%27s_Garden). 
+Granny's Garden is a logic game based on the educational adventure game created for the British BBC Microcomputer, released in 1983. You can read more about it on [Wikipedia](https://en.wikipedia.org/wiki/Granny%27s_Garden). 
 
 # How to play
 
