@@ -105,6 +105,7 @@ When I wrote the project, notable errors included:
 - Incorrect line spaces between functions.
 - Within each function, the nested "if" statement within the "else" statement did not work properly as the structure was incorrect.
 - It was found that if the player added an extra blank space before entering a correct option, it was considered incorrect. And the incorrect option loop was followed. It has been resolved by using .strip(). 
+- Occasionally, the terminal in Heroku hangs while playing the game. It is perhaps a connectivity issue between git and the Heroku terminal. In such a case pressing "Run program" restarts and then functions properly. 
 
 ### Remaining Bugs
 - No bugs remaining.
