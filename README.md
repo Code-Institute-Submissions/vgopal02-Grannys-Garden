@@ -37,13 +37,14 @@ The flowchart created on
     - If the play agrees, the game proceeds.
     - If the player does not wish to, the game will end.
     - If the player types an incorrect option, they return to start().
+    - For example, (y or n) can be typed in either case, but it has to be "y" or "n". Anything else is considered incorrect. 
    <h2 align="center"><img src="readme/images/f_start.png" alt="Mock screenshot" width="500" height="200"></h2>
 
 - Crossroads
     - This is the first point of decision if the player proceeds to rescue granny
     - The player is given the option to turn left or right.
     - Left will take the player to the bear's den
-    - Right will take the player to the monster's den.
+    - Right will take the player to the monster's den
     - If the player types an incorrect option, it is highlighted.
     - The player is given a choice to continue playing or exit the game. 
     - A second incorrect answer will take them to play_again() with the option of re-starting or exiting the game.
