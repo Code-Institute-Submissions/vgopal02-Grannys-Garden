@@ -47,6 +47,7 @@ The flowchart created on
     - Right will take the player to the monster's den
     - If the player types an incorrect option, it is highlighted.
     - The player is given a choice to continue playing or exit the game. 
+    - If the player wishes to continue , they are taken back to the start of this function().
     - A second incorrect answer will take them to play_again() with the option of re-starting or exiting the game.
     <h2 align="center"><img src="readme/images/f_crossroads.png" alt="Mock screenshot" width="500" height="150"></h2>
 
@@ -55,6 +56,7 @@ The flowchart created on
     - At the next level, the player will need to proceed through either the Bear or Monster den.
     - Both den's will lead the player to either the witch's dungeon or lose the game.
     - Through both dens entering an incorrect option will direct the player to continue playing or exit the game.
+    - If the player wishes to continue , they are taken back to the start of this function().
     - A second incorrect option will take the player to the play_again() function. 
 <h2 align="center"><img src="readme/images/f_bear.png" alt="Mock screenshot" width="500" height="150"></h2>
 <h2 align="center"><img src="readme/images/f_monster.png" alt="Mock screenshot" width="500" height="200"></h2>
@@ -64,6 +66,7 @@ The flowchart created on
     - If the player is successful from the previous level, they will enter the dungeon den.
     - Here, the player will have two options leading to a win or loss.
     - Entering an incorrect option will direct the player to continue playing or exit the game.
+    - If the player wishes to continue , they are taken back to the start of this function().
     - A second incorrect option will take the player to the play_again() function. 
 <h2 align="center"><img src="readme/images/f_dungeon.png" alt="Mock screenshot" width="500" height="200"></h2>
 
