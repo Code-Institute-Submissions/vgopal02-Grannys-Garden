@@ -149,7 +149,7 @@ It was then deployed using a mock terminal for Heroku.
 
 ### Media
 
-- Mock Terminal Screen Shot was sourced from [AmIresponsive](ami.responsivedesign) and desktop screenshots.
+- Mock Terminal Screen Shot was sourced from [AmIresponsive](http://ami.responsivedesign.is/) and desktop screenshots.
 
 
 ### Acknowledgement(s)
