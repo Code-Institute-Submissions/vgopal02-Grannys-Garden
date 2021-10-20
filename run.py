@@ -145,7 +145,7 @@ def monster_den():
 
 
 def dungeon_den():
-    # give some prompts.
+    # Storyline prompts.
     print("\n Well done! ")
     time.sleep(a)
     print("\n You have now entered the witch's dungeon den.")
