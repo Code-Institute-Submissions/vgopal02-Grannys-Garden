@@ -82,6 +82,7 @@ def cross_roads_main():
         print("\n ------------------------------------------ ")
         cross_roads_main()
 
+
 def bear_den():
     # Storyline prompts
     print("\n You have entered the bear's den")
@@ -94,9 +95,34 @@ def bear_den():
     time.sleep(a)
     bear_den_main()
 
+
 def bear_den_main():
     # Main function allowing user to proceed
     print("\n WHICH DOOR WILL YOU CHOOSE TO TAKE? (1 or 2) ?")
+    print("\n 1. Door guarded by the honey jar.")
+    print("\n 2. Door guarded by the sleeping bear")
+    # convert the player's input() to lower_case
+    answer = input(">").lower().strip()
+    # if player typed "1" game over()
+    if answer == "1":
+        game_over()
+    # else if player typed "2" lead him to dungeon_den()
+    elif answer == "2":
+        dungeon_den()
+    elif answer == "":
+        # if input blank back to bear_den_main() indicating invalid entry
+        print("\n ------------------------------------------ ")
+        print("\n ***** INVALID ENTRY *****")
+        print("\n ***** PLEASE ENTER A VALID ANSWER *****")
+        print("\n ------------------------------------------ ")
+        bear_den_main()
+    else:
+        # if input wrong back to bear_den_main()indicating incorrect entry
+        print("\n ------------------------------------------ ")
+        print("\n ***** INCORRECT ANSWER ***** ")
+        print("\n ***** PLEASE ENTER A CORRECT ANSWER ***** ")
+        print("\n ------------------------------------------ ")
+        bear_den_main()
 
 def monster_den():
     # Storyline prompts
