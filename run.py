@@ -171,7 +171,6 @@ def monster_den_main():
         monster_den_main()
 
 
-
 def dungeon_den():
     # Storyline prompts.
     print("\n Well done! ")
@@ -187,6 +186,33 @@ def dungeon_den():
     dungeon_den_main()
 
 
+def dungeon_den_main():
+    # Main function allowing user to proceed
+    print("\n WHICH DOOR WILL YOU CHOOSE TO TAKE (1 or 2) ?")
+    print("\n 1. Door leading to room with a sleeping snake.")
+    print("\n 2. Door leading to room with starving tiger")
+    # convert the player's input() to lower_case
+    answer = input(">").lower().strip()
+    # if player typed "1" game over()
+    if answer == "1":
+        game_over_1()
+    # else if player typed "2" game_win()
+    elif answer == "2":
+        game_win()
+    elif answer == "":
+        # if input blank back to dungeon_den_main() indicating invalid entry
+        print("\n ------------------------------------------ ")
+        print("\n ***** INVALID ENTRY *****")
+        print("\n ***** PLEASE ENTER A VALID ANSWER *****")
+        print("\n ------------------------------------------ ")
+        dungeon_den_main()
+    else:
+        # if input wrong back to dungeon_den_main()indicating incorrect entry
+        print("\n ------------------------------------------ ")
+        print("\n ***** INCORRECT ANSWER ***** ")
+        print("\n ***** PLEASE ENTER A CORRECT ANSWER ***** ")
+        print("\n ------------------------------------------ ")
+        dungeon_den_main()
 
 def game_over():
     # print the "reason" in a new line
