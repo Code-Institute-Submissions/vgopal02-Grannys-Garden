@@ -142,6 +142,15 @@ def monster_den():
     monster_den_main()
 
 
+def monster_den_main():
+    # Main function allowing user to proceed
+    print("\n WHICH DOOR WILL YOU CHOOSE TO TAKE (1 or 2) ?")
+
+
+
+
+
+
 def dungeon_den():
     # Storyline prompts.
     print("\n Well done! ")
