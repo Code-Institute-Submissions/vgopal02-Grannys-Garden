@@ -145,9 +145,30 @@ def monster_den():
 def monster_den_main():
     # Main function allowing user to proceed
     print("\n WHICH DOOR WILL YOU CHOOSE TO TAKE (1 or 2) ?")
-
-
-
+    print("\n 1. Squeeze through the small window")
+    print("\n 2. Open the bigger window and comfortably slide through")
+    # convert the player's input() to lower_case
+    answer = input(">").lower().strip()
+    # if player typed "1" dungeon_den()
+    if answer == "1":
+        dungeon_den()
+    # else if player typed "2" lead him to game_over()
+    elif answer == "2":
+        game_over()
+    elif answer == "":
+        # if input blank back to monster_den_main() indicating invalid entry
+        print("\n ------------------------------------------ ")
+        print("\n ***** INVALID ENTRY *****")
+        print("\n ***** PLEASE ENTER A VALID ANSWER *****")
+        print("\n ------------------------------------------ ")
+        monster_den_main()
+    else:
+        # if input wrong back to monster_den_main()indicating incorrect entry
+        print("\n ------------------------------------------ ")
+        print("\n ***** INCORRECT ANSWER ***** ")
+        print("\n ***** PLEASE ENTER A CORRECT ANSWER ***** ")
+        print("\n ------------------------------------------ ")
+        monster_den_main()
 
 
 
