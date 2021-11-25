@@ -53,7 +53,9 @@ def cross_roads():
     time.sleep(a)
     print("\n You are at a crossroad with 2 doors.")
     time.sleep(a)
-    print("\n WILL YOU TAKE THE DOOR ON THE LEFT OR RIGHT? (L or R)")
+    cross_roads_main()
+
+    
     # convert the player's input() to lower_case
     answer = input(">").lower().strip()
     # if player typed "left" or "l" lead him to bear_den()
