@@ -215,24 +215,28 @@ def dungeon_den_main():
         dungeon_den_main()
 
 def game_over():
-    # print the "reason" in a new line
+    # print "reason" for game over
     print("\n Sorry there was nothing beyond ...")
     time.sleep(a)
     print("\n and you fell down the cliff!")
     time.sleep(a)
-    print("\n Game Over!")
+    print("\n ------------------------------------------ ")
+    print("\n ***** GAME OVER! *****")
+    print("\n ------------------------------------------ ")
     time.sleep(a)
     # ask player to play again or not by activating play_again() function
     play_again()
 
 
 def game_over_1():
-    # print the "reason" in a new line
+    # print "reason" for game over
     print("\n The sleeping snake could feel the vibrations")
     time.sleep(a)
     print("\n as you entered the room and woke....")
     time.sleep(a)
-    print("\n Game Over!")
+    print("\n ------------------------------------------ ")
+    print("\n ***** GAME OVER! *****")
+    print("\n ------------------------------------------ ")
     time.sleep(a)
     # ask player to play again or not by activating play_again() function
     play_again()
