@@ -269,12 +269,26 @@ def play_again():
         start()
     elif answer == "n":
         # exit() the program
-        print("\n Sorry to see you go")
-        print("\n Granny hopes you will return")
+        print("\n ------------------------------------------ ")
+        print("\n ***** SORRY TO SEE YOU GO *****")
+        print("\n ***** GRANNY HOPES YOU WILL BE BACK SOON *****")
+        print("\n ***** GOODBYE *****")
+        print("\n ------------------------------------------ ")
         exit()
+    elif answer == "":
+        # if input blank back to play_again() indicating invalid entry
+        print("\n ------------------------------------------ ")
+        print("\n ******INVALID ENTRY ******")
+        print("\n ***** PLEASE ENTER A VALID ANSWER *****")
+        print("\n ------------------------------------------ ")
+        play_again()
     else:
-        # return to start()
-        start()
+        # if input wrong back to play_again()indicating incorrect entry
+        print("\n ------------------------------------------ ")
+        print("\n ***** INCORRECT ANSWER ***** ")
+        print("\n ***** PLEASE ENTER A CORRECT ANSWER ***** ")
+        print("\n ------------------------------------------ ")
+        play_again()
 
 
 # start the game
