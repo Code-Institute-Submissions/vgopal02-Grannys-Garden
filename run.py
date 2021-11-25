@@ -215,7 +215,7 @@ def dungeon_den_main():
         dungeon_den_main()
 
 def game_over():
-    # print "reason" for game over
+    # Storyline- print "reason" for game over
     print("\n Sorry there was nothing beyond ...")
     time.sleep(a)
     print("\n and you fell down the cliff!")
@@ -229,7 +229,7 @@ def game_over():
 
 
 def game_over_1():
-    # print "reason" for game over
+    # Storyline- print "reason" for game over
     print("\n The sleeping snake could feel the vibrations")
     time.sleep(a)
     print("\n as you entered the room and woke....")
@@ -243,7 +243,7 @@ def game_over_1():
 
 
 def game_win():
-    # print the "reason" in a new line (\n)
+    # Storyline - print "reason" for winning the game
     print("\n By the time you came into the room ..")
     time.sleep(a)
     print("\n ...the tiger had been starving for 2 years and died!")
@@ -252,9 +252,12 @@ def game_win():
     time.sleep(a)
     print("\n And exit out into the garden where Granny was kept")
     time.sleep(a)
-    print("\n WELL DONE ON RESCUING GRANNY!")
+    print("\n ------------------------------------------ ")
+    print("\n ***** WELL DONE ON RESCUING GRANNY! *****")
+    print("\n ------------------------------------------ ")
     # ask player to play again or not by activating play_again() function
     play_again()
+
 
 
 def play_again():
