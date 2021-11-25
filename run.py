@@ -94,6 +94,10 @@ def bear_den():
     time.sleep(a)
     bear_den_main()
 
+def bear_den_main():
+    # Main function allowing user to proceed
+    print("\n WHICH DOOR WILL YOU CHOOSE TO TAKE? (1 or 2) ?")
+
 def monster_den():
     # Storyline prompts
     print("\n You have entered the monster den")
