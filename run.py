@@ -92,35 +92,7 @@ def bear_den():
     time.sleep(a)
     print("\n Door 2 is guarded by the sleeping bear")
     time.sleep(a)
-    print("\n WHICH DOOR WILL YOU CHOOSE TO TAKE? (1 or 2) ?")
-    print("\n 1. Door guarded by the honey jar.")
-    print("\n 2. Door guarded by the sleeping bear")
-    # convert the player's input() to lower_case
-    answer = input(">").lower().strip()
-    # if player typed "1" game over()
-    if answer == "1":
-        game_over()
-    # else if player typed "2" lead him to dungeon_den()
-    elif answer == "2":
-        dungeon_den()
-    else:
-        # if wrong key typed get back to bear_den(),exit game or start again
-        print("\n Incorrect Answer")
-        print("\n To continue playing press 1 or press 2 to quit the game")
-        # convert the player's input() to lower_case
-        answer = input(">").lower().strip()
-        if answer == "1":
-            bear_den()
-        elif answer == "2":
-            # allow player to exit
-            print("\n Sorry to see you go!")
-            time.sleep(a)
-            print("\n Granny hopes you will return to rescue her")
-            exit()
-        else:
-            # take player to play_again()
-            play_again()
-
+    bear_den_main()
 
 def monster_den():
     # Storyline prompts
