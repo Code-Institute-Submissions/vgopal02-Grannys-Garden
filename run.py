@@ -124,6 +124,7 @@ def bear_den_main():
         print("\n ------------------------------------------ ")
         bear_den_main()
 
+
 def monster_den():
     # Storyline prompts
     print("\n You have entered the monster den")
@@ -138,32 +139,7 @@ def monster_den():
     time.sleep(a)
     print("\n Window 2 is closed but big enough for you to fit through")
     time.sleep(a)
-    print("\n WHICH DOOR WILL YOU CHOOSE TO TAKE (1 or 2) ?")
-    print("\n 1. Squeeze through the small window")
-    print("\n 2. Open the bigger window and comfortably slide through")
-    # convert the player's input() to lower_case
-    answer = input(">").lower().strip()
-    # if player typed "1" dungeon_den()
-    if answer == "1":
-        dungeon_den()
-    # else if player typed "2" lead him to game_over()
-    elif answer == "2":
-        game_over()
-    else:
-        # if wrong key typed get back to monster_den(),exit game or start again
-        print("\n Incorrect Answer")
-        print("\n To continue playing press 1 or press 2 to quit the game")
-        # convert the player's input() to lower_case
-        answer = input(">").lower()
-        if answer == "1":
-            monster_den()
-        elif answer == "2":
-            print("\n Sorry to see you go!")
-            time.sleep(a)
-            print("\n Granny hopes you will return to rescue her")
-            exit()
-        else:
-            play_again()
+    monster_den_main()
 
 
 def dungeon_den():
