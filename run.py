@@ -184,32 +184,8 @@ def dungeon_den():
     time.sleep(a)
     print("\n Door 2 will lead you through a room with a starving tiger")
     time.sleep(a)
-    print("\n WHICH DOOR WILL YOU CHOOSE TO TAKE (1 or 2) ?")
-    print("\n 1. Door leading to room with a sleeping snake.")
-    print("\n 2. Door leading to room with starving tiger")
-    # convert the player's input() to lower_case
-    answer = input(">").lower().strip()
-    # if player typed "1" game over()
-    if answer == "1":
-        game_over_1()
-    # else if player typed "2" game_win()
-    elif answer == "2":
-        game_win()
-    # else return to start()
-    else:
-        print("\n Incorrect Answer")
-        print("\n To continue playing press 1 or press 2 to quit the game")
-        # convert the player's input() to lower_case
-        answer = input(">").lower()
-        if answer == "1":
-            bear_den()
-        elif answer == "2":
-            print("\n Sorry to see you go!")
-            time.sleep(a)
-            print("\n You were so close to rescuing her!!!")
-            exit()
-        else:
-            exit()
+    dungeon_den_main()
+
 
 
 def game_over():
