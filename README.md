@@ -75,17 +75,19 @@ The flowchart created on
 
     - If the player is successful from the previous level, they will enter the dungeon den.
     - Here, the player will have two options leading to a win or loss.
-    - Entering an incorrect option will direct the player to continue playing or exit the game.
-    - If the player wishes to continue , they are taken back to the start of this function().
-    - A second incorrect option will take the player to the play_again() function. 
+    - If a player enters a blank response it will be flagged up with "INVALID ENTRY".
+    - If a player enters an incorrect response it will be flagged up with "INCORRECT ENTRY".
+    - A blank or incorrect response after highlightling it to the player will return to the question to continue playing.
 <h2 align="center"><img src="readme/images/f_dungeon.png" alt="Mock screenshot" width="500" height="200"></h2>
+<h2 align="center"><img src="readme/images/f_dungeon_main.png" alt="Mock screenshot" width="500" height="200"></h2>
 
 - Choices
 
     - At all levels the player is presented with two choices.
-    - An incorrect entry will query the player to continue of exit.
-    - This has been done to ensure the player does not feel trapped and always has the exit option.
-    - A second incorrect option will always take the player to play_again() function.
+    - If a player enters a blank response it will be flagged up with "INVALID ENTRY".
+    - If a player enters an incorrect response it will be flagged up with "INCORRECT ENTRY".
+    - A blank or incorrect response after highlightling it to the player will return to the question to continue playing.
+    
 <h2 align="center"><img src="readme/images/f_choices.png" alt="Mock screenshot" width="500" height="350"></h2>
 
 - Conclusion 
