@@ -15,6 +15,38 @@ def start():
     start_main()
 
 
+def start_main():
+    # Main function allowing user to proceed
+    print("\n DO YOU WANT TO SAVE GRANNY? (y or n) ")
+    # convert the player's input to lower_case
+    answer = input(">").lower().strip()
+    if answer == "y":
+        # if input "y" take player to cross_roads
+        cross_roads()
+    elif answer == "n":
+        # if input "n" take player to play_again()
+        print("\n ------------------------------------------ ")
+        print("\n ***** SORRY TO SEE YOU GO ***** ")
+        print("\n ***** GRANNY HOPES YOU WILL BE BACK SOON *****")
+        print("\n ***** GOODBYE *****")
+        print("\n ------------------------------------------ ")
+        play_again()
+    elif answer == "":
+        # if input blank back to start_main() indicatiing invalid entry
+        print("\n ------------------------------------------ ")
+        print("\n ***** INVALID ENTRY *****")
+        print("\n ***** PLEASE ENTER A VALID ANSWER *****")
+        print("\n ------------------------------------------ ")
+        start_main()
+    else:
+        # if input wrong back to start_main() indicating incorrect entry
+        print("\n ------------------------------------------ ")
+        print("\n ***** INCORRECT ANSWER ***** ")
+        print("\n ***** PLEASE ENTER A CORRECT ANSWER ***** ")
+        print("\n ------------------------------------------ ")
+        start_main()
+
+
 def cross_roads():
     # Storyline prompts
     print("\n Thank you for coming to Granny's rescue.")
