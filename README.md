@@ -39,7 +39,7 @@ The flowchart created on
     - If the player types an incorrect option, they return to start().
     - For example, (y or n) can be typed in either case, but it has to be "y" or "n". 
     - If a player enters a blank response it will be flagged up with "INVALID ENTRY".
-    - If a player enters an incorrect response it will be flaagged up with "INCORRECT ENTRY".
+    - If a player enters an incorrect response it will be flagged up with "INCORRECT ENTRY".
     - A blank or incorrect response after highlightling it to the player will return to the question to continue playing.
     - Each function has been divided into two parts . 
     - The first part is the storyline.
@@ -54,7 +54,7 @@ The flowchart created on
     - Left will take the player to the bear's den
     - Right will take the player to the monster's den
     - If a player enters a blank response it will be flagged up with "INVALID ENTRY".
-    - If a player enters an incorrect response it will be flaagged up with "INCORRECT ENTRY".
+    - If a player enters an incorrect response it will be flagged up with "INCORRECT ENTRY".
     - A blank or incorrect response after highlightling it to the player will return to the question to continue playing.
     <h2 align="center"><img src="readme/images/f_crossroads.png" alt="Mock screenshot" width="500" height="150"></h2>
     <h2 align="center"><img src="readme/images/f_crossroads_main.png" alt="Mock screenshot" width="500" height="350"></h2>
@@ -63,11 +63,13 @@ The flowchart created on
 
     - At the next level, the player will need to proceed through either the Bear or Monster den.
     - Both den's will lead the player to either the witch's dungeon or lose the game.
-    - Through both dens entering an incorrect option will direct the player to continue playing or exit the game.
-    - If the player wishes to continue , they are taken back to the start of this function().
-    - A second incorrect option will take the player to the play_again() function. 
+    - Through both options if a player enters a blank response it will be flagged up with "INVALID ENTRY".
+    - Through both options if a player enters an incorrect response it will be flagged up with "INCORRECT ENTRY".
+    - A blank or incorrect response after highlightling it to the player will return to the question to continue playing.
 <h2 align="center"><img src="readme/images/f_bear.png" alt="Mock screenshot" width="500" height="150"></h2>
+<h2 align="center"><img src="readme/images/f_bear_main.png" alt="Mock screenshot" width="500" height="350"></h2>
 <h2 align="center"><img src="readme/images/f_monster.png" alt="Mock screenshot" width="500" height="200"></h2>
+<h2 align="center"><img src="readme/images/f_monster_main.png" alt="Mock screenshot" width="500" height="350"></h2>
 
 - Dungeon Den
 
