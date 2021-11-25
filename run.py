@@ -58,7 +58,29 @@ def cross_roads():
 
 def cross_roads_main():
     # Main function allowing user to proceed
-
+    print("\n WILL YOU TAKE THE DOOR ON THE LEFT OR RIGHT? (L or R)")
+    # convert the player's input() to lower_case
+    answer = input(">").lower().strip()
+    # if player typed "left" or "l" lead him to bear_den()
+    if answer == "l":
+        bear_den()
+    # else if player typed "right" or "r" lead him to monster_den()
+    elif answer == "r":
+        monster_den()
+    elif answer == "":
+        # if input blank back to cross_roads_main() indicating invalid entry
+        print("\n ------------------------------------------ ")
+        print("\n ***** INVALID ENTRY *****")
+        print("\n ***** PLEASE ENTER A VALID ANSWER *****")
+        print("\n ------------------------------------------ ")
+        cross_roads_main()
+    else:
+        # if input wrong back to cross_roads_main()indicating incorrect entry
+        print("\n ------------------------------------------ ")
+        print("\n ***** INCORRECT ANSWER ***** ")
+        print("\n ***** PLEASE ENTER A CORRECT ANSWER ***** ")
+        print("\n ------------------------------------------ ")
+        cross_roads_main()
 
 def bear_den():
     # Storyline prompts
