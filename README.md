@@ -97,10 +97,8 @@ The flowchart created on
 <h2 align="center"><img src="readme/images/f_over.png" alt="Mock screenshot" width="500" height="150"></h2>
 
 - Play again
-    - At various points in the game, the player is directed to the play_again() function.
-    - Choices include restarting the game or exit.
-    -An incorrect entry from this function will always direct the user back to the start() function.
-<h2 align="center"><img src="readme/images/f_play.png" alt="Mock screenshot" width="500" height="250"></h2>
+    
+<h2 align="center"><img src="readme/images/f_play.png" alt="Mock screenshot" width="500" height="300"></h2>
 
 # Testing
 
