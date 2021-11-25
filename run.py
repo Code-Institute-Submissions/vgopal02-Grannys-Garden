@@ -214,6 +214,7 @@ def dungeon_den_main():
         print("\n ------------------------------------------ ")
         dungeon_den_main()
 
+
 def game_over():
     # Storyline- print "reason" for game over
     print("\n Sorry there was nothing beyond ...")
@@ -257,7 +258,6 @@ def game_win():
     print("\n ------------------------------------------ ")
     # ask player to play again or not by activating play_again() function
     play_again()
-
 
 
 def play_again():
