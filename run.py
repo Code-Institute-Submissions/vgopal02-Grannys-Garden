@@ -55,32 +55,9 @@ def cross_roads():
     time.sleep(a)
     cross_roads_main()
 
-    
-    # convert the player's input() to lower_case
-    answer = input(">").lower().strip()
-    # if player typed "left" or "l" lead him to bear_den()
-    if answer == "l":
-        bear_den()
-    # else if player typed "right" or "r" lead him to monster_den()
-    elif answer == "r":
-        monster_den()
-    # else return to start()
-    else:
-        print("\n Incorrect Answer")
-        print("\n To continue playing press 1 or press 2 to quit the game")
-        # convert the player's input() to lower_case
-        answer = input(">").lower().strip()
-        if answer == "1":
-            # take player to cross_roads
-            cross_roads()
-        elif answer == "2":
-            # allow player to exit
-            print("\n Sorry to see you go!")
-            print("\n Granny hopes you will return to rescue her")
-            exit()
-        else:
-            # take player to play_again()
-            play_again()
+
+def cross_roads_main():
+    # Main function allowing user to proceed
 
 
 def bear_den():
