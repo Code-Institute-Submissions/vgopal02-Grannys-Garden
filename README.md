@@ -105,9 +105,14 @@ The flowchart created on
 
 
 - Play again
+
+    - When the game concludes as a win or loss , the player is asked if they will play again.
+    - An affirmative answer (y) will take them back to the start of the game.
+    - If not , the player is told that " Granny hopes to see them back soon. Goodbye" and then exits the game.
     
 <h2 align="center"><img src="readme/images/f_play.png" alt="Mock screenshot" width="500" height="300"></h2>
-<h2 align="center"><img src="readme/images/p_playagain.png" alt="Mock screenshot" width="500" height="50"></h2>
+
+<h2 align="center"><img src="readme/images/p_playagain_n.png" alt="Mock screenshot" width="500" height="250"></h2>
 
 # Testing
 
