@@ -157,6 +157,15 @@ It was then deployed using a mock terminal for Heroku.
     - Link the Heroku app to the repository.
     - Click on deploy.
 
+## Python Modules
+The Python time module provides many ways of representing time in code, such as objects, numbers, and strings. It also provides functionality other than representing time, like waiting during code execution and measuring the efficiency of your code.
+
+The time module comes with Python’s standard utility module, so there is no need to install it externally. We can simply import it using the import statement.
+
+In Granny's garden the time module has been used at various points to allow the storylines to be presented to reader with a 2  sec delay.
+
+ <h2 align="center"><img src="readme/images/f_time.png" alt="Website Screen Shots" width="600" height="200"></h2>
+
 # Credits
 ### Code & Creation
 
