@@ -133,7 +133,9 @@ When I wrote the project, notable errors included:
 - Incorrect indentation, resulting in the program not functioning correctly.
 - Incorrect line spaces between functions.
 - Within each function, the nested "if" statement within the "else" statement did not work properly as the structure was incorrect.
-- It was found that if the player added an extra blank space before entering a correct option, it was considered incorrect. And the incorrect option loop was followed. It has been resolved by using .strip(). 
+- It was found that if the player added an extra blank space before entering a correct option, it was considered incorrect. And the incorrect option loop was followed. It has been resolved by using 
+.strip(). This allows the user to type in options of y/n or 1/2 even with a blank space before . The blank space is overridden and the system validates the answer to the appropriate response.
+- .lower() has been used to allow the user to type the correct responses in upper or lower case and the system is able to validate the answer correctly.
 
    -  VALIDATION 
         - Another error which was found when entering a BLANK entry or an INCORRECT entry , the game simply looped in both cases to the beginning of the function without giving any reason to the user. Improper validation confuses the player who may not realise the mistake or blank entry made. Therefore this has been corrected.
