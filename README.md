@@ -40,8 +40,8 @@ The flowchart created on
     - If a player enters a blank response it will be flagged up with "INVALID ENTRY" and the player will returned to the same question.
     - If a player enters an incorrect response it will be flagged up with "INCORRECT ENTRY" and the player will returned to the same question.
     - Each function has been divided into two parts . 
-    - The first part is the storyline.
-    - The second part allows the user to take decisions.
+        - The first part is the storyline.
+        - The second part allows the user to take decisions.
     
    <h2 align="center"><img src="readme/images/f_start.png" alt="Mock screenshot" width="500" height="200"></h2>
    <h2 align="center"><img src="readme/images/f_start_main.png" alt="Mock screenshot" width="500" height="450"></h2>
@@ -128,7 +128,17 @@ When I wrote the project, notable errors included:
 - Incorrect line spaces between functions.
 - Within each function, the nested "if" statement within the "else" statement did not work properly as the structure was incorrect.
 - It was found that if the player added an extra blank space before entering a correct option, it was considered incorrect. And the incorrect option loop was followed. It has been resolved by using .strip(). 
-- Incorrect validation : Another error which was found when entering a BLANK entry or an INCORRECT entry , the game simply looped in both cases to the beginning of the function without giving any reason to the user. This was corrected , so the user is informed of their mistake and the question is asked to them again.
+
+   -  VALIDATION 
+        - Another error which was found when entering a BLANK entry or an INCORRECT entry , the game simply looped in both cases to the beginning of the function without giving any reason to the user. Improper validation confuses the player who may not realise the mistake or blank entry made. Therefore this has been corrected.
+
+ 
+<h2 align="center"><img src="readme/images/f_choices.png" alt="Mock screenshot" width="500" height="300"></h2>
+
+- This has been corrected by adding an error message which comes up when a BLANK ENTRY or INCORRECT ENTRY is made . The user's mistake is highlighted clearly and taken back to the question to continue playing.
+
+<h2 align="center"><img src="readme/images/f_dungeon_main_1.png" alt="Mock screenshot" width="500" height="350"></h2>
+
 - Occasionally, the terminal in Heroku hangs while playing the game. It is perhaps a connectivity issue between git and the Heroku terminal. In such a case pressing "Run program" restarts and then functions properly. 
 
 ### Remaining Bugs
