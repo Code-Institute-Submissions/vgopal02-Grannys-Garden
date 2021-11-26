@@ -97,7 +97,7 @@ The flowchart created on
     - By choosing the wrong path , the player loses and the game is over.
 
 <h2 align="center"><img src="readme/images/f_win.png" alt="Mock screenshot" width="500" height="200"></h2>
-<h2 align="center"><img src="readme/images/p_gamewin.png" alt="Mock screenshot" width="500" height="250"></h2>
+<h2 align="center"><img src="readme/images/p_gamewin.png" alt="Mock screenshot" width="550" height="300"></h2>
 <h2 align="center"><img src="readme/images/f_over.png" alt="Mock screenshot" width="500" height="150"></h2>
 <h2 align="center"><img src="readme/images/p_gameover.png" alt="Mock screenshot" width="500" height="200"></h2>
 
