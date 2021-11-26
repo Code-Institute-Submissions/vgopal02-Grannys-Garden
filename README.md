@@ -45,7 +45,7 @@ The flowchart created on
     
    <h2 align="center"><img src="readme/images/f_start.png" alt="Mock screenshot" width="500" height="200"></h2>
    <h2 align="center"><img src="readme/images/f_start_main.png" alt="Mock screenshot" width="500" height="450"></h2>
-   <h2 align="center"><img src="readme/images/p_start.png" alt="Mock screenshot" width="400" height="200"></h2>
+   <h2 align="center"><img src="readme/images/p_start.png" alt="Mock screenshot" width="400" height="300"></h2>
    <h2 align="center"><img src="readme/images/p_start_main.png" alt="Mock screenshot" width="400" height="80"></h2>
 
 - Crossroads
