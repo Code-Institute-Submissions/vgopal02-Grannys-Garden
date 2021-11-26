@@ -108,7 +108,8 @@ The flowchart created on
 
     - When the game concludes as a win or loss , the player is asked if they will play again.
     - An affirmative answer (y) will take them back to the start of the game.
-    - If not , the player is told that " Granny hopes to see them back soon. Goodbye" and then exits the game.
+    - A blank or incorrect response will be highlighted and the play returned to the question.
+    - An answer of No (n) will tell the player that " Granny hopes to see them back soon. Goodbye" and then EXITS the game.
     
 <h2 align="center"><img src="readme/images/f_play.png" alt="Mock screenshot" width="500" height="300"></h2>
 
