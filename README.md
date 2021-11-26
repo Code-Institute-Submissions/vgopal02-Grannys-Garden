@@ -36,20 +36,17 @@ The flowchart created on
     - The player is given the option to rescue granny.
     - If the play agrees, the game proceeds.
     - If the player does not wish to, the game will end.
-    - If the player types an incorrect option, they return to start().
-    - For example, (y or n) can be typed in either case, but it has to be "y" or "n". 
-    - If a player enters a blank response it will be flagged up with "INVALID ENTRY".
-    - If a player enters an incorrect response it will be flagged up with "INCORRECT ENTRY".
-    - A blank or incorrect response after highlightling it to the player will return to the question to continue playing.
+    - For example, (y or n) can be typed in either case, but it has to be "y" or "n" or "1" or "2". 
+    - If a player enters a blank response it will be flagged up with "INVALID ENTRY" and the player will returned to the same question.
+    - If a player enters an incorrect response it will be flagged up with "INCORRECT ENTRY" and the player will returned to the same question.
     - Each function has been divided into two parts . 
     - The first part is the storyline.
     - The second part allows the user to take decisions.
     
    <h2 align="center"><img src="readme/images/f_start.png" alt="Mock screenshot" width="500" height="200"></h2>
    <h2 align="center"><img src="readme/images/f_start_main.png" alt="Mock screenshot" width="500" height="450"></h2>
-   <h2 align="center"><img src="readme/images/p_start.png" alt="Mock screenshot" width="350" height="150"></h2>
-   
-   <h2 align="center"><img src="readme/images/p_start_main.png" alt="Mock screenshot" width="350" height="50"></h2>
+   <h2 align="center"><img src="readme/images/p_start.png" alt="Mock screenshot" width="400" height="200"></h2>
+   <h2 align="center"><img src="readme/images/p_start_main.png" alt="Mock screenshot" width="400" height="80"></h2>
 
 - Crossroads
     - This is the first point of decision if the player proceeds to rescue granny
