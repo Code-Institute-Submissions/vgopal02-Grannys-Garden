@@ -292,6 +292,5 @@ def play_again():
         print("\n ------------------------------------------ ")
         play_again()
 
-
 # start the game
 start()
