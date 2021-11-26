@@ -19,8 +19,6 @@ Granny's Garden is a logic game based on the educational adventure game created 
 
 <p style="justify">At every stage, there are two routes. Typing a wrong or blank answer will return a response of an incorrect or invalid answer. After informing the player the answer is incorrect or invalid , it will return the player to the question being asked.
 
-If the user continues to type an incorrect answer, it will take them
-to the play_again() function to check if they still want to play.
 </p> 
 
 # Data Model
@@ -36,7 +34,7 @@ The flowchart created on
     - The player is given the option to rescue granny.
     - If the play agrees, the game proceeds.
     - If the player does not wish to, the game will end.
-    - For example, (y or n) can be typed in either case, but it has to be "y" or "n" or "1" or "2". 
+    - Responses at each stage of the game (y /n or 1/2) can be typed in lower or upper case. 
     - If a player enters a blank response it will be flagged up with "INVALID ENTRY" and the player will returned to the same question.
     - If a player enters an incorrect response it will be flagged up with "INCORRECT ENTRY" and the player will returned to the same question.
     - Each function has been divided into two parts . 
