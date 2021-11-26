@@ -46,7 +46,10 @@ The flowchart created on
     - The second part allows the user to take decisions.
     
    <h2 align="center"><img src="readme/images/f_start.png" alt="Mock screenshot" width="500" height="200"></h2>
-   <h2 align="center"><img src="readme/images/f_start_main.png" alt="Mock screenshot" width="500" height="400"></h2>
+   <h2 align="center"><img src="readme/images/f_start_main.png" alt="Mock screenshot" width="500" height="450"></h2>
+   <h2 align="center"><img src="readme/images/p_start.png" alt="Mock screenshot" width="500" height="150"></h2>
+   
+   <h2 align="center"><img src="readme/images/p_start_main.png" alt="Mock screenshot" width="500" height="100"></h2>
 
 - Crossroads
     - This is the first point of decision if the player proceeds to rescue granny
@@ -70,6 +73,8 @@ The flowchart created on
 <h2 align="center"><img src="readme/images/f_bear_main.png" alt="Mock screenshot" width="500" height="350"></h2>
 <h2 align="center"><img src="readme/images/f_monster.png" alt="Mock screenshot" width="500" height="200"></h2>
 <h2 align="center"><img src="readme/images/f_monster_main.png" alt="Mock screenshot" width="500" height="350"></h2>
+<h2 align="center"><img src="readme/images/p_bear.png" alt="Mock screenshot" width="500" height="200"></h2>
+<h2 align="center"><img src="readme/images/p_monster.png" alt="Mock screenshot" width="500" height="200"></h2>
 
 - Dungeon Den
 
@@ -79,7 +84,7 @@ The flowchart created on
     - If a player enters an incorrect response it will be flagged up with "INCORRECT ENTRY".
     - A blank or incorrect response after highlightling it to the player will return to the question to continue playing.
 <h2 align="center"><img src="readme/images/f_dungeon.png" alt="Mock screenshot" width="500" height="200"></h2>
-<h2 align="center"><img src="readme/images/f_dungeon_main.png" alt="Mock screenshot" width="500" height="200"></h2>
+<h2 align="center"><img src="readme/images/p_dungeon.png" alt="Mock screenshot" width="500" height="250"></h2>
 
 - Choices
 
@@ -87,18 +92,25 @@ The flowchart created on
     - If a player enters a blank response it will be flagged up with "INVALID ENTRY".
     - If a player enters an incorrect response it will be flagged up with "INCORRECT ENTRY".
     - A blank or incorrect response after highlightling it to the player will return to the question to continue playing.
+<h2 align="center"><img src="readme/images/p_invalid.png" alt="Mock screenshot" width="500" height="200"></h2>
+<h2 align="center"><img src="readme/images/p_incorrect.png" alt="Mock screenshot" width="500" height="250"></h2>
     
-<h2 align="center"><img src="readme/images/f_choices.png" alt="Mock screenshot" width="500" height="350"></h2>
+
 
 - Conclusion 
     - The game concludes with the player choosing the correct path and winning by rescuing granny.
     - By choosing the wrong path , the player loses and the game is over.
+
 <h2 align="center"><img src="readme/images/f_win.png" alt="Mock screenshot" width="500" height="200"></h2>
+<h2 align="center"><img src="readme/images/p_gamewin.png" alt="Mock screenshot" width="500" height="250"></h2>
 <h2 align="center"><img src="readme/images/f_over.png" alt="Mock screenshot" width="500" height="150"></h2>
+<h2 align="center"><img src="readme/images/p_gameover.png" alt="Mock screenshot" width="500" height="200"></h2>
+
 
 - Play again
     
 <h2 align="center"><img src="readme/images/f_play.png" alt="Mock screenshot" width="500" height="300"></h2>
+<h2 align="center"><img src="readme/images/p_playagain.png" alt="Mock screenshot" width="500" height="50"></h2>
 
 # Testing
 
@@ -119,6 +131,7 @@ When I wrote the project, notable errors included:
 - Incorrect line spaces between functions.
 - Within each function, the nested "if" statement within the "else" statement did not work properly as the structure was incorrect.
 - It was found that if the player added an extra blank space before entering a correct option, it was considered incorrect. And the incorrect option loop was followed. It has been resolved by using .strip(). 
+- Incorrect validation : Another error which was found when entering a BLANK entry or an INCORRECT entry , the game simply looped in both cases to the beginning of the function without giving any reason to the user. This was corrected , so the user is informed of their mistake and the question is asked to them again.
 - Occasionally, the terminal in Heroku hangs while playing the game. It is perhaps a connectivity issue between git and the Heroku terminal. In such a case pressing "Run program" restarts and then functions properly. 
 
 ### Remaining Bugs

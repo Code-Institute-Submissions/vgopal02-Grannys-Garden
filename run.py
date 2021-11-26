@@ -5,7 +5,9 @@ a = 2
 
 def start():
     # Storyline prompts
+    print("\n ****************************************")
     print("\n WELCOME TO GRANNY'S GARDEN\n")
+    print("\n *****************************************")
     print("\n Granny was in the garden picking apples....")
     time.sleep(a)
     print("\n when the wicked witch from across the mountain kidnapped her!")
