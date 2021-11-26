@@ -49,7 +49,7 @@ The flowchart created on
    <h2 align="center"><img src="readme/images/f_start_main.png" alt="Mock screenshot" width="500" height="450"></h2>
    <h2 align="center"><img src="readme/images/p_start.png" alt="Mock screenshot" width="500" height="150"></h2>
    
-   <h2 align="center"><img src="readme/images/p_start_main.png" alt="Mock screenshot" width="500" height="100"></h2>
+   <h2 align="center"><img src="readme/images/p_start_main.png" alt="Mock screenshot" width="500" height="50"></h2>
 
 - Crossroads
     - This is the first point of decision if the player proceeds to rescue granny
