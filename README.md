@@ -17,7 +17,7 @@ Granny's Garden is a logic game based on the educational adventure game created 
 
 <p style="justify">Eventually, the player will complete the game by either losing as the incorrect path was chosen or winning after following the correct route and rescuing granny.</p> 
 
-<p style="justify">At every stage, there are two routes. Typing a wrong answer will return a response of an incorrect answer. It also becomes a checkpoint to see if the player wants to continue playing or exit the game, allowing the player to leave the game at any stage without feeling trapped. 
+<p style="justify">At every stage, there are two routes. Typing a wrong or blank answer will return a response of an incorrect or invalid answer. After informing the player the answer is incorrect or invalid , it will return the player to the question being asked.
 
 If the user continues to type an incorrect answer, it will take them
 to the play_again() function to check if they still want to play.
